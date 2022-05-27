@@ -66,7 +66,12 @@ _____________________________*/
 }
 
 .btn-branco {
+    border: 2px solid white;
+}
 
+.btn-branco:hover {
+    background-color: white;
+    color: black;
 }
 
 /* Tipografia
@@ -79,14 +84,20 @@ h1 {
 }
 
 /* `xs` returns only a ruleset and no media query */
-// ... { ... }
+@media (max-width: 575.98px) {
+    .btn-custom {
+        margin: 10px 15px;
+    }
+ }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
 @media (min-width: 575.98px) {
     h1 {
         font-size: 3em;
     }
-
+ .btn-custom {
+        margin: 10px 15px;
+    }
  }
 
 /* `md` applies to small devices (landscape phones, less than 768px) */
@@ -94,6 +105,7 @@ h1 {
     h1 {
         font-size: 4em;
     }
+   
 
 
  }

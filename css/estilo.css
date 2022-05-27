@@ -23,6 +23,7 @@ nav.navbar-trasparente {
 
 .navbar-light .navbar-nav .nav-link {
     color: white;
+    margin-left: 20px;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
@@ -30,8 +31,9 @@ nav.navbar-trasparente {
 }
 
 .navbar-light .navbar-toggler {
-    color: rgba(0,0,0,.5);
+    color: rgba(255,255,255,.5);
     border-color: rgba(255,255,255,0.4);
+    margin-right: 20px;
 }
 
 .divisor {
@@ -83,17 +85,35 @@ h1 {
     color: white;
 }
 
+/* Estrutura de Conteudo*/
+#servicos {
+    background: white;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.albuns {
+    padding: 10px 0px;
+}
+
 /* `xs` returns only a ruleset and no media query */
 @media (max-width: 575.98px) {
+    h1 {
+        font-size: 3em;
+    }
     .btn-custom {
         margin: 10px 15px;
     }
+    .logo {
+        margin-left: 20px;
+    }
+    
  }
 
 /* `sm` applies to x-small devices (portrait phones, less than 576px) */
-@media (min-width: 575.98px) {
+@media (min-width: 575.98px) and (max-width: 767.98px) {
     h1 {
-        font-size: 3em;
+        font-size: 4em;
     }
  .btn-custom {
         margin: 10px 15px;
@@ -103,7 +123,7 @@ h1 {
 /* `md` applies to small devices (landscape phones, less than 768px) */
 @media (min-width: 767.98px) {
     h1 {
-        font-size: 4em;
+        font-size: 5em;
     }
    
 
@@ -113,7 +133,7 @@ h1 {
 /* `lg` applies to medium devices (tablets, less than 992px) */
 @media (min-width: 991.98px) {
     h1 {
-        font-size: 5em;
+        font-size: 6em;
     }
 
 
@@ -122,7 +142,7 @@ h1 {
 /* `xl` applies to large devices (desktops, less than 1200px) */
 @media (min-width: 1199.98px) {
     h1 {
-        font-size: 6em;
+        font-size: 7em;
     }
 
 

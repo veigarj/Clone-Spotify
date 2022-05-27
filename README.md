@@ -12,3 +12,8 @@ Bootstrap
 
 <img src="clone-spotify1.png">
 <img src="clone-spotify2.png">
+<img src="clone-spotify3.png">
+
+Responsivo Mobile
+
+<img src="clone-spotify-mobile.png">

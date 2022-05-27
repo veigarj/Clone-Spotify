@@ -9,3 +9,6 @@ Bootstrap
 -  Menu com trasparencia
 -  multiplas camadas de Background
 -  alteração de configuração padrão de Bootstrap
+
+<img src="clone-spotify1.png">
+<img src="clone-spotify2.png">

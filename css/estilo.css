@@ -85,6 +85,13 @@ h1 {
     color: white;
 }
 
+h2 {
+    font-size: 3em;
+    font-weight: 700;
+    letter-spacing: -0.04em; 
+}
+
+
 /* Estrutura de Conteudo*/
 #servicos {
     background: white;

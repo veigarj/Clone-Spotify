@@ -43,6 +43,9 @@ nav.navbar-trasparente {  /* tamanho e cor de fundo*/
     margin: 12px 15px;
 }
 
+.carousel-control-next, .carousel-control-prev {
+    width: 5%;
+}
 /* Capa 
 _____________________________*/
 .capa {

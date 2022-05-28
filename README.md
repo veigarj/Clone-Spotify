@@ -6,6 +6,7 @@ CSS
 Bootstrap
 
 -  Site Responsivo a diversos dispositivos
+-  Carousel e controles
 -  Menu com trasparencia
 -  multiplas camadas de Background
 -  alteração de configuração padrão de Bootstrap
